@@ -1,0 +1,11 @@
+Sprite2D
+Label
+Node
+AnimationTree
+AnimationPlayer
+AnimatedSprite2D
+RemoteTransform2D
+Camera2D
+CollisionShape2D
+CharacterBody2D
+TileMap
