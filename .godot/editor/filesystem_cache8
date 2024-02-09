@@ -1,7 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706271291
-export_presets.cfg::TextFile::-1::1706004626::0::1::::<><>::
+::res://::1707499866
+export_presets.cfg::TextFile::-1::1707382202::0::1::::<><>::
 icon.svg::CompressedTexture2D::8732287544558078644::1705928881::1705928888::1::::<><>::
+README.md::TextFile::-1::1706305370::0::1::::<><>::
 ::res://Art/::1706004363
 aaa1.png::CompressedTexture2D::5589482981815504499::1706004200::1706004363::1::::<><>::
 ::res://Art/Legacy-Fantasy - High Forest 2.3/::1705928969
@@ -69,15 +70,15 @@ Golden-Tree.png::CompressedTexture2D::7017607757532089559::1656997518::170593063
 Green-Tree.png::CompressedTexture2D::290513680077925836::1656997032::1705930635::1::::<><>::
 Red-Tree.png::CompressedTexture2D::760544987468262642::1656997532::1705930635::1::::<><>::
 Yellow-Tree.png::CompressedTexture2D::7124267941551563401::1656997164::1705930635::1::::<><>::
-::res://Character/::1706268734
-player.gd::GDScript::-1::1706257987::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::3998600749495199371::1706268734::0::1::::<><>::uid://bj1c0p4wtanqx::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png<>res://Character/player.gd<>uid://brr1w1dm4ndef::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png<>uid://dufoyyy3c6vuw::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png<>uid://cib3w0fxp2l1k::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/Jump-All-Sheet.png<>uid://dgnkxmi6q3gyd::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/Jump-End-Sheet.png<>res://Character/人物状态机.gd<>res://Character/状态：Ground.gd<>res://Character/状态：Air.gd<>res://Character/状态：Landing.gd<>res://Character/StateDebugLabel.gd
-StateDebugLabel.gd::GDScript::-1::1706255874::0::1::::<>Label<>::
-人物状态机.gd::GDScript::-1::1706266266::0::1::::CharacterStateMachine<>Node<>::
-状态.gd::GDScript::-1::1706266224::0::1::::State<>Node<>::
-状态：Air.gd::GDScript::-1::1706266781::0::1::::AirState<>State<>::
-状态：Ground.gd::GDScript::-1::1706266360::0::1::::GroundState<>State<>::
-状态：Landing.gd::GDScript::-1::1706174840::0::1::::LandingState<>State<>::
-::res://Levels/::1706266557
-test_level.tscn::PackedScene::3954141714641074629::1706266557::0::1::::<><>::uid://bblhbccrjuwfq::::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png<>uid://bw77mt5bfeyet::::res://Character/player.tscn
-::res://output/::1706004625
+::res://Character/::1707499324
+player.gd::GDScript::-1::1707490194::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::3998600749495199371::1707499324::0::1::::<><>::uid://bj1c0p4wtanqx::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png<>res://Character/player.gd<>uid://brr1w1dm4ndef::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png<>uid://cib3w0fxp2l1k::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/Jump-All-Sheet.png<>res://Character/人物状态机.gd<>res://Character/状态：Ground.gd<>res://Character/状态：Air.gd<>res://Character/状态：Landing.gd<>res://Character/StateDebugLabel.gd
+StateDebugLabel.gd::GDScript::-1::1707377646::0::1::::<>Label<>::
+人物状态机.gd::GDScript::-1::1707465676::0::1::::CharacterStateMachine<>Node<>::
+状态.gd::GDScript::-1::1707490009::0::1::::State<>Node<>::
+状态：Air.gd::GDScript::-1::1707490194::0::1::::AirState<>State<>::
+状态：Ground.gd::GDScript::-1::1707490279::0::1::::GroundState<>State<>::
+状态：Landing.gd::GDScript::-1::1707493187::0::1::::LandingState<>State<>::
+::res://Levels/::1707499659
+test_level.tscn::PackedScene::3954141714641074629::1707499659::0::1::::<><>::uid://bblhbccrjuwfq::::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png<>uid://bw77mt5bfeyet::::res://Character/player.tscn<>uid://d3460dgja2t47::::res://Art/Legacy-Fantasy - High Forest 2.3/Background/Background.png
+::res://output/::1707382202

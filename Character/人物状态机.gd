@@ -8,11 +8,11 @@ class_name CharacterStateMachine
 
 var states : Array[State]
 
+## 初始化各个状态
 func _ready():
 	for child in get_children():
 		if child is State:
 			states.append(child) # 添加状态
-			
 			child.character = character # 子节点绑定角色
 			child.playback = animation_tree["parameters/playback"] # 子节点状态绑定动画树
 		else:
@@ -29,10 +29,11 @@ func _input(event : InputEvent):
 
 
 
-func check_if_can_move():
+
+func check_if_can_move() -> bool:
 	return current_state.能否跑
 
-func switch_states(new_state : State):
+func switch_states(new_state : State) -> void:
 	if current_state != null:
 		current_state.on_exit()
 		current_state.next_state = null

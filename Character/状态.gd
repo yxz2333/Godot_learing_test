@@ -9,14 +9,15 @@ var next_state : State
 var playback : AnimationNodeStateMachinePlayback
 
 ## 先在这里声明，继承在各个类文件里
-func state_process(delta): 
+func state_process(delta) -> void: 
 	pass
 
-func state_input(event : InputEvent):
+func state_input(event : InputEvent) -> void:
 	pass
 
-func on_enter():
+func on_enter() -> void:
 	pass
 
-func on_exit():
+func on_exit() -> void:
 	pass
+
