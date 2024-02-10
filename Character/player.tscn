@@ -310,6 +310,7 @@ states/Start/position = Vector2(148, 203)
 "states/跳跃_连跳/node" = SubResource("AnimationNodeAnimation_2xesq")
 "states/跳跃_连跳/position" = Vector2(576, 63)
 transitions = ["Start", "移动", SubResource("AnimationNodeStateMachineTransition_u111x"), "移动", "跳跃_开始", SubResource("AnimationNodeStateMachineTransition_eg77g"), "跳跃_开始", "跳跃_结束", SubResource("AnimationNodeStateMachineTransition_4yp4g"), "跳跃_结束", "移动", SubResource("AnimationNodeStateMachineTransition_ahn2a"), "跳跃_开始", "跳跃_连跳", SubResource("AnimationNodeStateMachineTransition_cknop"), "跳跃_连跳", "跳跃_结束", SubResource("AnimationNodeStateMachineTransition_50ro6")]
+graph_offset = Vector2(-273.634, 0)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_epnnm")
