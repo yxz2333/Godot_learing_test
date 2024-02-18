@@ -8,15 +8,15 @@ class_name LandingState
 
 
 func state_process(delta) -> void:
-	if not character.is_still() or not is_zero_approx(character.velocity.x):
+	if not character.is_still(): # 着陆时按了方向键
 		next_state = ground_state
 		playback.travel("移动")
 
-func state_input(event : InputEvent) -> void: # 读入状态事件
-	if event.is_action_pressed("jump"): # 发生的是"跳"事件
+func state_input(event : InputEvent) -> void:
+	if event.is_action_pressed("jump"): # 着陆时按了跳跃键
 		jump()
 
-func jump() -> void:
+func jump() -> void: 
 	character.velocity.y = jump_velocity
 	next_state = air_state
 	playback.travel("跳跃_开始")

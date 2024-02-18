@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://bwloevuoo0vtd"]
+[gd_scene load_steps=18 format=3 uid="uid://bwloevuoo0vtd"]
 
 [ext_resource type="Script" path="res://Levels/test_level.gd" id="1_0mile"]
 [ext_resource type="Texture2D" uid="uid://bblhbccrjuwfq" path="res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png" id="1_e3n5s"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://d3460dgja2t47" path="res://Art/Legacy-Fantasy - High Forest 2.3/Background/Background.png" id="3_sexod"]
 [ext_resource type="Texture2D" uid="uid://ugn7ydwqhbqj" path="res://Art/Legacy-Fantasy - High Forest 2.3/Trees/Backgroundhill.png" id="6_fqynm"]
 [ext_resource type="Texture2D" uid="uid://cgc0ph28vepci" path="res://Art/Legacy-Fantasy - High Forest 2.3/Mob/ButterflyA.png" id="7_6cty6"]
+[ext_resource type="PackedScene" uid="uid://c46qmvhxthc2x" path="res://Character/Enemies/Snail.tscn" id="8_35ihv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7n1da"]
 texture = ExtResource("1_e3n5s")
@@ -2561,3 +2562,6 @@ libraries = {
 }
 tree_root = SubResource("AnimationNodeStateMachine_lb5eq")
 anim_player = NodePath("../AnimationPlayer")
+
+[node name="Snail" parent="." instance=ExtResource("8_35ihv")]
+position = Vector2(481, 191)

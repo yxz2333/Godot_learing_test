@@ -1,3 +1,5 @@
-res://Levels/test_level.tscn
 res://Character/player.tscn
-res://Levels/Background_butterfly.gd
+res://Levels/test_level.tscn
+res://Character/Enemies/Snail.tscn
+res://Character/Enemies/Damageable.gd
+res://Character/Sword.gd

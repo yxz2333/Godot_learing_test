@@ -21,7 +21,7 @@ func on_exit() -> void:
 		has_double_jumped = false
 		playback.travel("跳跃_结束")
 		
-	if next_state == ground_state: # 即将进入着陆状态
+	if next_state == ground_state: # 着陆时按了方向键
 		has_double_jumped = false
 		playback.travel("移动")
 

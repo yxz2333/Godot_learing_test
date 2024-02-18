@@ -31,10 +31,10 @@ func _physics_process(delta):
 	
 func is_still() -> bool:
 	var direction = Input.get_axis("left", "right") # 读入x轴输入
-	return is_zero_approx(direction)
+	return is_zero_approx(direction) and is_zero_approx(velocity.x)
 
 
-func update_animation_parameters() -> void: # 更新动画的函数
+func update_animation_parameters() -> void: # 设置移动动画对应参数
 	animation_tree.set("parameters/移动/blend_position", direction.x)
 
 func update_facing_directon() -> void: # 更新面朝方向
