@@ -2,4 +2,6 @@ res://Character/player.tscn
 res://Levels/test_level.tscn
 res://Character/Enemies/Snail.tscn
 res://Character/Enemies/Damageable.gd
-res://Character/Sword.gd
+res://signal_bus.gd
+res://UI/health_changed_manager.tscn
+res://UI/health_changed_manager.gd

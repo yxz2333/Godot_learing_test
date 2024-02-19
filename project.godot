@@ -16,6 +16,10 @@ config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 config/windows_native_icon="res://Art/aaa1.ico"
 
+[autoload]
+
+SignalBus="*res://signal_bus.gd"
+
 [display]
 
 window/size/viewport_width=1280

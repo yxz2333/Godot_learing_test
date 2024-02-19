@@ -1,3 +1,5 @@
+Label
+Control
 Node
 AnimationPlayer
 AnimationTree
@@ -9,6 +11,4 @@ Timer
 Node2D
 ParallaxLayer
 ParallaxBackground
-Label
 AnimatedSprite2D
-RemoteTransform2D
