@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+class_name Player
+
 @export var speed : float = 200.0
 
 @onready var sprite : Sprite2D = $Sprite2D 
@@ -9,6 +11,7 @@ extends CharacterBody2D
 var direction : Vector2 = Vector2.ZERO # 读入键盘手柄输入用
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")  # 获取项目设置里设置的重力大小
 
+signal facing_direction_changed(facing_right : bool)
 
 func _ready():
 	animation_tree.active = true
@@ -42,3 +45,5 @@ func update_facing_directon() -> void: # 更新面朝方向
 		sprite.flip_h = false
 	elif direction.x < 0: # 朝左
 		sprite.flip_h = true
+		
+	emit_signal("facing_direction_changed", !sprite.flip_h) # 发出信号，让剑的碰撞区域也反转
