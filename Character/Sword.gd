@@ -6,7 +6,7 @@ extends Area2D
 
 func _ready():
 	monitoring = false
-	player.connect("facing_direction_changed", on_player_facing_direction_changed)
+	player.connect("facing_direction_changed", _on_player_facing_direction_changed)
 
 func _on_body_entered(body): # 剑的碰撞逻辑
 	for child in body.get_children():
@@ -25,7 +25,7 @@ func _on_body_entered(body): # 剑的碰撞逻辑
 			print_debug(body.name)
 
 
-func on_player_facing_direction_changed(facing_right : bool):  # 左右改变攻击区域方向
+func _on_player_facing_direction_changed(facing_right : bool):  # 左右改变攻击区域方向
 	if facing_right:
 		facing_collision_shape_2d.position = facing_collision_shape_2d.facing_right_position
 	else:

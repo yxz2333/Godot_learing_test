@@ -11,7 +11,7 @@ class_name HitState
 @onready var timer : Timer = $Timer
 
 func _ready():
-	damageable.connect("on_hit", on_damageable_hit)
+	damageable.connect("on_hit", _on_damageable_hit)
 
 func on_enter():
 	timer.start()
@@ -19,7 +19,7 @@ func on_enter():
 func on_exit():
 	character.velocity = Vector2.ZERO
 
-func on_damageable_hit(node : Node, damage_taken : int, knockback_diretion : Vector2):
+func _on_damageable_hit(node : Node, damage_taken : int, knockback_diretion : Vector2):
 	if damageable.health > 0:                 # 还活着就接着之前的状态
 		character.velocity = knockback_speed * knockback_diretion  # 击退
 		emit_signal("interrupt_state", self)

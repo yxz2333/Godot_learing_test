@@ -1,15 +1,4 @@
-res://Character/player.tscn
-res://Levels/test_level.tscn
-res://Character/Enemies/Snail.tscn
 res://UI/health_changed_manager.tscn
 res://UI/health_changed_label.tscn
-res://Decoration/dynamic_decoration.gd
-res://signal_bus.gd
-res://Character/Enemies/Snail.gd
-res://Character/Sword.gd
-res://Character/状态：Ground.gd
-res://decoration.tscn
-res://Character/状态：Air.gd
-res://Character/状态：Landing.gd
-res://Character/人物状态机.gd
-res://Character/状态：Attack.gd
+res://Game.tscn
+res://UI/pause_menu.tscn

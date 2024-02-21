@@ -17,7 +17,7 @@ func _ready():
 			child.character = character # 子节点绑定角色
 			child.playback = animation_tree["parameters/playback"] # 子节点状态绑定动画树
 			
-			child.connect("interrupt_state", on_state_interrupt_state)
+			child.connect("interrupt_state", _on_state_interrupt_state)
 			
 		else:
 			push_warning("子节点" + child.name + "不是一个状态")
@@ -34,7 +34,7 @@ func _input(event : InputEvent):
 	current_state.state_input(event)
 
 
-func on_state_interrupt_state(new_state : State):
+func _on_state_interrupt_state(new_state : State):
 	switch_states(new_state)
 	
 

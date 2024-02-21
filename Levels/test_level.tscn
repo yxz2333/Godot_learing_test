@@ -1,15 +1,15 @@
-[gd_scene load_steps=11 format=3 uid="uid://bwloevuoo0vtd"]
+[gd_scene load_steps=11 format=3 uid="uid://ketb1i3qjo46"]
 
-[ext_resource type="Script" path="res://Levels/test_level.gd" id="1_0mile"]
-[ext_resource type="Texture2D" uid="uid://bblhbccrjuwfq" path="res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png" id="1_e3n5s"]
-[ext_resource type="Texture2D" uid="uid://dtl81o7plu8gu" path="res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tree-Assets.png" id="2_spw73"]
-[ext_resource type="PackedScene" uid="uid://bw77mt5bfeyet" path="res://Character/player.tscn" id="2_v0mdw"]
-[ext_resource type="PackedScene" uid="uid://co5wlsallhctf" path="res://decoration.tscn" id="5_yijx6"]
-[ext_resource type="PackedScene" uid="uid://c46qmvhxthc2x" path="res://Character/Enemies/Snail.tscn" id="8_35ihv"]
-[ext_resource type="PackedScene" uid="uid://cgpintkm0d8n4" path="res://UI/health_changed_manager.tscn" id="9_fp2ri"]
+[ext_resource type="Script" path="res://Levels/test_level.gd" id="1_fq2r5"]
+[ext_resource type="Texture2D" uid="uid://bblhbccrjuwfq" path="res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png" id="2_7mnmq"]
+[ext_resource type="Texture2D" uid="uid://dtl81o7plu8gu" path="res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tree-Assets.png" id="3_vq5bi"]
+[ext_resource type="PackedScene" uid="uid://bw77mt5bfeyet" path="res://Character/player.tscn" id="4_58jmk"]
+[ext_resource type="PackedScene" uid="uid://co5wlsallhctf" path="res://Decoration/decoration.tscn" id="5_7gsnf"]
+[ext_resource type="PackedScene" uid="uid://c46qmvhxthc2x" path="res://Character/Enemies/Snail.tscn" id="6_6yyyk"]
+[ext_resource type="PackedScene" uid="uid://cgpintkm0d8n4" path="res://UI/health_changed_manager.tscn" id="7_dk4i8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7n1da"]
-texture = ExtResource("1_e3n5s")
+texture = ExtResource("2_7mnmq")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
@@ -1444,7 +1444,7 @@ texture = ExtResource("1_e3n5s")
 19:24/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xaqy2"]
-texture = ExtResource("2_spw73")
+texture = ExtResource("3_vq5bi")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
@@ -2310,7 +2310,7 @@ sources/0 = SubResource("TileSetAtlasSource_7n1da")
 sources/1 = SubResource("TileSetAtlasSource_xaqy2")
 
 [node name="TestLevel" type="Node2D"]
-script = ExtResource("1_0mile")
+script = ExtResource("1_fq2r5")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_eqoxw")
@@ -2324,7 +2324,7 @@ layer_2/name = "background-3"
 layer_2/z_index = -3
 layer_2/tile_data = PackedInt32Array(196649, 589824, 0, 262185, 589824, 1, -458710, 655360, 7, -393174, 655360, 8, -327638, 655360, 7, -262102, 655360, 8, -196566, 655360, 7, -131030, 655360, 8, -65494, 655360, 7, 42, 655360, 8, 65578, 655360, 7, 131114, 655360, 8, 196650, 655360, 0, 262186, 655360, 1, 458794, 655360, 8, 524330, 655360, 9, 589866, 655360, 6, 655402, 524288, 4, 720938, 524288, 5, 786474, 655360, 9, -458709, 720896, 7, -393173, 720896, 8, -327637, 720896, 7, -262101, 720896, 8, -196565, 720896, 7, -131029, 720896, 8, -65493, 720896, 7, 43, 720896, 8, 65579, 720896, 7, 131115, 720896, 8, 196651, 720896, 0, 262187, 720896, 1, 458795, 720896, 4, 524331, 720896, 5, 589867, 720896, 6, 655403, 589824, 4, 720939, 589824, 5, 786475, 720896, 9, 458796, 786432, 4, 524332, 786432, 5, 458797, 786432, 6, 524333, 786432, 7, 589869, 786432, 8, 458798, 851968, 6, 524334, 851968, 7, 589870, 851968, 8, 327722, 655360, 6, 393258, 655360, 7, 327723, 720896, 6, 393259, 720896, 7)
 
-[node name="Player" parent="." instance=ExtResource("2_v0mdw")]
+[node name="Player" parent="." instance=ExtResource("4_58jmk")]
 position = Vector2(376, 128)
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
@@ -2347,13 +2347,9 @@ drag_right_margin = 0.0
 drag_bottom_margin = 0.07
 editor_draw_drag_margin = true
 
-[node name="Decoration" parent="." instance=ExtResource("5_yijx6")]
+[node name="Decoration" parent="." instance=ExtResource("5_7gsnf")]
 
-[node name="Snail" parent="." instance=ExtResource("8_35ihv")]
+[node name="Snail" parent="." instance=ExtResource("6_6yyyk")]
 position = Vector2(637, 188)
 
-[node name="Snail2" parent="." node_paths=PackedStringArray("hit_state") instance=ExtResource("8_35ihv")]
-position = Vector2(759, 187)
-hit_state = NodePath("../Snail/CharacterStateMachine/Hit")
-
-[node name="HealthChangedManager" parent="." instance=ExtResource("9_fp2ri")]
+[node name="HealthChangedManager" parent="." instance=ExtResource("7_dk4i8")]

@@ -1,7 +1,8 @@
-res://Character/player.tscn::36f519b14899747c03b87cd9197b1fe6::1708450015::res://.godot/exported/133200997/export-2af341c60ebd38c5c82bd4d41fcdb710-player.scn
-res://Levels/test_level.tscn::1e2f1a1480a115b966e7afc3b1e3f0a9::1708450169::res://.godot/exported/133200997/export-cdfc72a2c7de608a57721ef95d29853e-test_level.scn
-res://Character/Enemies/Snail.tscn::e0f19dd314c9797ca4241fd13f749cab::1708450016::res://.godot/exported/133200997/export-a82d9ba57ec462b921ccda8bf535ff21-Snail.scn
-res://Levels/world.tscn::4061cf900261e1991d987e3f46a8a11c::1708411091::res://.godot/exported/133200997/export-bc661eb3269517c23a54eb508770d628-world.scn
-res://UI/health_changed_label.tscn::3f75bb9935e64e19af622e3688a2e66d::1708450016::res://.godot/exported/133200997/export-a2a036b9488b4a86d801c3944d44ba9a-health_changed_label.scn
-res://UI/health_changed_manager.tscn::3670812c3a513e9d618418a7399c5ad4::1708450016::res://.godot/exported/133200997/export-5e415a941e5d1c03eb7013722a364ae1-health_changed_manager.scn
-res://decoration.tscn::eec8eb719e7c228c3bb5dc16baf4eae0::1708450016::res://.godot/exported/133200997/export-8ec702e34ce17744433a0a6a6acdfc3e-decoration.scn
+res://Character/player.tscn::36f519b14899747c03b87cd9197b1fe6::1708538847::res://.godot/exported/133200997/export-2af341c60ebd38c5c82bd4d41fcdb710-player.scn
+res://Levels/test_level.tscn::175da5a1a49c44f27e102295b9eef166::1708534947::res://.godot/exported/133200997/export-cdfc72a2c7de608a57721ef95d29853e-test_level.scn
+res://Character/Enemies/Snail.tscn::e0f19dd314c9797ca4241fd13f749cab::1708534943::res://.godot/exported/133200997/export-a82d9ba57ec462b921ccda8bf535ff21-Snail.scn
+res://UI/health_changed_label.tscn::3f75bb9935e64e19af622e3688a2e66d::1708540122::res://.godot/exported/133200997/export-a2a036b9488b4a86d801c3944d44ba9a-health_changed_label.scn
+res://UI/health_changed_manager.tscn::3670812c3a513e9d618418a7399c5ad4::1708540121::res://.godot/exported/133200997/export-5e415a941e5d1c03eb7013722a364ae1-health_changed_manager.scn
+res://Decoration/decoration.tscn::eec8eb719e7c228c3bb5dc16baf4eae0::1708519075::res://.godot/exported/133200997/export-c39a24bd7afbc01a7af1052eee8d3d93-decoration.scn
+res://UI/pause_menu.tscn::173b152e9162d28bb875d513cf86b64d::1708540123::res://.godot/exported/133200997/export-525826eebbacba7f238c774f76aea232-pause_menu.scn
+res://Game.tscn::0f218c9210a56ec5a75c22bf4ab55365::1708540122::res://.godot/exported/133200997/export-6455994a605b35b7d96f8362f3055c4a-Game.scn
