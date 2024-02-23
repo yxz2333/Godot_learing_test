@@ -1,4 +1,4 @@
-[gd_scene load_steps=48 format=3 uid="uid://bw77mt5bfeyet"]
+[gd_scene load_steps=49 format=3 uid="uid://bw77mt5bfeyet"]
 
 [ext_resource type="Texture2D" uid="uid://bj1c0p4wtanqx" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png" id="1_dead7"]
 [ext_resource type="Script" path="res://Character/player.gd" id="1_epnnm"]
@@ -10,6 +10,7 @@
 [ext_resource type="Script" path="res://Character/状态：Air.gd" id="9_d46bl"]
 [ext_resource type="Script" path="res://Character/状态：Landing.gd" id="10_jdfp6"]
 [ext_resource type="Script" path="res://Character/状态：Attack.gd" id="10_vnh5h"]
+[ext_resource type="FontFile" uid="uid://kbr8115pi1jl" path="res://Art/Fonts/SmileySans-Oblique.ttf" id="11_h3ega"]
 [ext_resource type="Script" path="res://Character/StateDebugLabel.gd" id="11_su4y4"]
 [ext_resource type="Script" path="res://Character/Sword.gd" id="12_0fwfh"]
 [ext_resource type="Script" path="res://Character/FacingCollisionShape2D.gd" id="13_ueafh"]
@@ -587,6 +588,7 @@ offset_left = -48.0
 offset_top = -49.0
 offset_right = 44.0
 offset_bottom = -26.0
+theme_override_fonts/font = ExtResource("11_h3ega")
 text = "状态："
 script = ExtResource("11_su4y4")
 state_machine = NodePath("../CharacterStateMachine")

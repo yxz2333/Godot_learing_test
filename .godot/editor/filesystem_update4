@@ -1,4 +1,12 @@
 res://UI/health_changed_manager.tscn
+res://UI/title_theme.tres
 res://UI/health_changed_label.tscn
-res://Game.tscn
 res://UI/pause_menu.tscn
+res://UI/title_screen.tscn
+res://Character/player.tscn
+res://Levels/test_level.tscn
+res://Game.tscn
+res://UI/pause_menu.gd
+res://UI/title_screen.gd
+res://signal_bus.gd
+res://Decoration/decoration.tscn

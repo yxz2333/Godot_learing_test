@@ -6,7 +6,6 @@ class_name Damageable
 signal on_hit(node : Node, damage_taken : int, knockback_diretion : Vector2)
 
 @export var dead_animation_name : String = "死亡"
-
 @export var health : float = 20 :
 	get:
 		return health
